@@ -354,6 +354,7 @@
 "Assets/Hero.cs"
 "Assets/soldier/Scripts/CharacterController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
+"Assets/zombie/Scripts/ZombieController.cs"
 -langversion:9.0
 
 /deterministic

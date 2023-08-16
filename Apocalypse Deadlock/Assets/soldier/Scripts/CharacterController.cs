@@ -24,7 +24,7 @@ public class CharacterController : MonoBehaviour
         // Animation
         if (animator != null)
         {
-            // Set animation parameters based on movement direction
+           
             bool isMovingForward = verticalInput > 0.0f;
             bool isMovingBackward = verticalInput < 0.0f;
             
