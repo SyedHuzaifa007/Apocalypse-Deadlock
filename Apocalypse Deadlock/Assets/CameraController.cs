@@ -9,9 +9,9 @@ public class CameraController : MonoBehaviour
     {
         
     }
-    public Transform target; // The target the camera will follow
-    public float smoothSpeed = 0.125f; // Smoothing factor for camera movement
-    public Vector3 offset; // Offset from the target's position
+    public Transform target; 
+    public float smoothSpeed = 0.125f; 
+    public Vector3 offset; 
 
     // Update is called once per frame
     void LateUpdate()

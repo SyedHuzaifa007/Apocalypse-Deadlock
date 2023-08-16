@@ -7,9 +7,9 @@ public class ZombieController : MonoBehaviour
     public float moveSpeed = 5.0f;
     public float detectionRange = 10.0f;
 
-    private Transform target; // The police character to follow
-    private Vector3 randomTargetPosition; // Random position for wandering
-    private bool isFollowing = false; // Whether the zombie is following the target
+    private Transform target; /
+    private Vector3 randomTargetPosition; 
+    private bool isFollowing = false; 
 
     void Start()
     {
