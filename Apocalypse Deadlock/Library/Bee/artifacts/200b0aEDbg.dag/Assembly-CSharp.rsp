@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/CameraController.cs"
 "Assets/Hero.cs"
 "Assets/soldier/Scripts/CharacterController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
