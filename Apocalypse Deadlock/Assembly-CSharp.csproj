@@ -43,9 +43,11 @@
   <ItemGroup>
      <Compile Include="Assets/Hero.cs" />
      <Compile Include="Assets/CameraController.cs" />
+     <Compile Include="Assets/zombie/Scripts/ZombieController.cs" />
+     <Compile Include="Assets/zombie/Scripts/ZombieAttack.cs" />
      <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/soldier/Scripts/CharacterController.cs" />
-     <Compile Include="Assets/zombie/ZombieController.cs" />
+     <Compile Include="Assets/TowerHealth.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/POLYGONCityCharacters" />
@@ -59,6 +61,7 @@
      <Folder Include="Assets/PolygonCity/Textures" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground3" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground10/Materials" />
+     <Folder Include="Assets/Adaptive Performance/Settings" />
      <Folder Include="Assets/TutorialInfo" />
      <Folder Include="Assets/POLYGONCityCharacters/Prefabs" />
      <Folder Include="Assets/POLYGONCityCharacters/Materials" />
@@ -75,6 +78,7 @@
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Scenes" />
      <Folder Include="Assets/PolygonCity/Prefabs" />
      <Folder Include="Assets/PolygonCity/Prefabs/Props" />
+     <Folder Include="Assets/Adaptive Performance" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground9" />
      <Folder Include="Assets/zombie/Materials" />
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Materials" />
@@ -107,6 +111,7 @@
      <Folder Include="Assets/PolygonCity/FX" />
      <Folder Include="Assets/PolygonCity/Prefabs/Characters" />
      <Folder Include="Assets/ADG_Textures/ground_vol1" />
+     <Folder Include="Assets/zombie/Scripts" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -785,8 +790,14 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
      <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AdaptivePerformance.Editor">
      <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>

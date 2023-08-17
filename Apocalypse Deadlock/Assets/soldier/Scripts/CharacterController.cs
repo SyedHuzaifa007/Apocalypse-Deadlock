@@ -7,6 +7,7 @@ public class CharacterController : MonoBehaviour
     private Animator animator;
 
     public float moveSpeed = 5.0f;
+    public float rotationSpeed = 180.0f;  // Rotation speed in degrees per second
 
     void Start()
     {
@@ -16,18 +17,25 @@ public class CharacterController : MonoBehaviour
     void Update()
     {
         // Movement
-        float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        Vector3 moveDirection = new Vector3(horizontalInput, 0.0f, verticalInput) * moveSpeed * Time.deltaTime;
-        transform.Translate(moveDirection);
-        
+        Vector3 moveDirection = new Vector3(0.0f, 0.0f, verticalInput);
+        moveDirection.Normalize();
+        Vector3 moveVelocity = moveDirection * moveSpeed * Time.deltaTime;
+        transform.Translate(moveVelocity);
+
+        // Rotation
+        float horizontalInput = Input.GetAxis("Horizontal");
+        if (horizontalInput != 0.0f)
+        {
+            float rotationAmount = horizontalInput * rotationSpeed * Time.deltaTime;
+            transform.Rotate(Vector3.up, rotationAmount);
+        }
+
         // Animation
         if (animator != null)
         {
-           
             bool isMovingForward = verticalInput > 0.0f;
             bool isMovingBackward = verticalInput < 0.0f;
-            
             animator.SetBool("Forward", isMovingForward);
             animator.SetBool("Backward", isMovingBackward);
         }

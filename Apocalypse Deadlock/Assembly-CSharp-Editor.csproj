@@ -774,8 +774,14 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
      <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AdaptivePerformance.Editor">
      <HintPath>/Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
