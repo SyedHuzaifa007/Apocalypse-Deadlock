@@ -42,13 +42,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Hero.cs" />
+     <Compile Include="Assets/CameraController.cs" />
      <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/soldier/Scripts/CharacterController.cs" />
-     <Compile Include="Assets/CameraController.cs" />
-     <Compile Include="Assets/zombie/Scripts/ZombieController.cs" />
+     <Compile Include="Assets/zombie/ZombieController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
-     <Folder Include="Assets/zombie/Scripts" />
      <Folder Include="Assets/POLYGONCityCharacters" />
      <Folder Include="Assets/PolygonCity/Prefabs/Vehicles" />
      <Folder Include="Assets/PolygonCity/Prefabs/Buildings" />
