@@ -354,6 +354,7 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/CameraController.cs"
 "Assets/Hero.cs"
+"Assets/ObstacleDestroyer.cs"
 "Assets/soldier/Scripts/CharacterController.cs"
 "Assets/TowerHealth.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

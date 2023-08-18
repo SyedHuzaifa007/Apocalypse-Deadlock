@@ -49,6 +49,7 @@
      <Compile Include="Assets/soldier/Scripts/CharacterController.cs" />
      <Compile Include="Assets/TowerHealth.cs" />
      <Compile Include="Assets/ZombieWaveManager.cs" />
+     <Compile Include="Assets/ObstacleDestroyer.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/POLYGONCityCharacters" />

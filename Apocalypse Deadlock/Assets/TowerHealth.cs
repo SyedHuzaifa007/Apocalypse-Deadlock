@@ -16,12 +16,17 @@ public class TowerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            DestroyTower();
+            DestroyObstaclesWithTag("Obstacle");
+            Destroy(gameObject);
         }
     }
 
-    private void DestroyTower()
+    private void DestroyObstaclesWithTag(string tag)
     {
-        Destroy(gameObject);
+        GameObject[] obstacles = GameObject.FindGameObjectsWithTag(tag);
+        foreach (GameObject obstacle in obstacles)
+        {
+            Destroy(obstacle);
+        }
     }
 }
