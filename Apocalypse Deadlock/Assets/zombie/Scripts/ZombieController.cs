@@ -6,42 +6,66 @@ public class ZombieController : MonoBehaviour
     public float attackRange = 2.0f;
     public Animator animator;
 
-    private GameObject[] obstacles;
-    private GameObject targetObstacle;
+    private GameObject[] shields;
+    private GameObject[] police;
+    private GameObject tower;
+    private GameObject currentTarget;
+
     private Vector3 destination;
+
+    private enum AttackTarget
+    {
+        Shield,
+        Police,
+        Tower
+    }
+
+    private AttackTarget currentAttackTarget = AttackTarget.Shield;
 
     void Start()
     {
-        obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
-        FindClosestObstacle();
+        shields = GameObject.FindGameObjectsWithTag("Shield");
+        police = GameObject.FindGameObjectsWithTag("Police");
+        tower = GameObject.FindGameObjectWithTag("Tower");
+        FindNextTarget();
     }
 
     void Update()
     {
-        if (targetObstacle == null)
+        if (currentTarget == null)
         {
-            FindClosestObstacle();
+            FindNextTarget();
         }
 
-        if (targetObstacle != null)
+        if (currentTarget != null)
         {
-            destination = targetObstacle.transform.position;
-            float distanceToObstacle = Vector3.Distance(transform.position, destination);
+            destination = currentTarget.transform.position;
+            float distanceToTarget = Vector3.Distance(transform.position, destination);
 
-            if (distanceToObstacle <= attackRange)
+            if (distanceToTarget <= attackRange)
             {
-                // Play attack animation and set IsAttacking parameter
+                // Set IsAttacking parameter for animation
                 if (animator != null)
                 {
                     animator.SetBool("attack", true);
                 }
-                // Destroy the obstacle
-                Destroy(targetObstacle);
-                targetObstacle = null;
+
+                // Destroy the target
+                Destroy(currentTarget);
+                currentTarget = null;
+
+                // Find the next target
+                FindNextTarget();
             }
             else
             {
-                // Move towards the current obstacle
+                // Set IsAttacking parameter for animation
+                if (animator != null)
+                {
+                    animator.SetBool("attack", false);
+                }
+
+                // Move towards the current target
                 Vector3 directionToDestination = (destination - transform.position).normalized;
                 Vector3 newPosition = transform.position + directionToDestination * moveSpeed * Time.deltaTime;
                 transform.position = newPosition;
@@ -49,17 +73,35 @@ public class ZombieController : MonoBehaviour
         }
     }
 
-    void FindClosestObstacle()
+    void FindNextTarget()
     {
-        float closestDistance = Mathf.Infinity;
-        foreach (var obstacle in obstacles)
+        if (currentAttackTarget == AttackTarget.Shield)
         {
-            float distance = Vector3.Distance(transform.position, obstacle.transform.position);
-            if (distance < closestDistance)
+            if (shields.Length > 0)
             {
-                closestDistance = distance;
-                targetObstacle = obstacle;
+                currentTarget = shields[0];
+                currentAttackTarget = AttackTarget.Police;
             }
+            else
+            {
+                currentAttackTarget = AttackTarget.Police;
+            }
+        }
+        else if (currentAttackTarget == AttackTarget.Police)
+        {
+            if (police.Length > 0)
+            {
+                currentTarget = police[0];
+                currentAttackTarget = AttackTarget.Tower;
+            }
+            else
+            {
+                currentAttackTarget = AttackTarget.Tower;
+            }
+        }
+        else if (currentAttackTarget == AttackTarget.Tower)
+        {
+            currentTarget = tower;
         }
     }
 }
