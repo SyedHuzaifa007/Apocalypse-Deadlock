@@ -41,18 +41,50 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/Button_UI.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/PlayerHandler.cs" />
      <Compile Include="Assets/scripts/MainMenu.cs" />
      <Compile Include="Assets/Hero.cs" />
      <Compile Include="Assets/ObstacleDestroyer.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/PositionMeshSorter.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/World_Bar.cs" />
      <Compile Include="Assets/scripts/VolumeSlider.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/CameraFollow.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/UVVectors.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_0_Start/Scripts/PlayerHandler.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/FunctionUpdater.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/Blood_Handler.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/FunctionTimer.cs" />
      <Compile Include="Assets/CameraController.cs" />
      <Compile Include="Assets/zombie/Scripts/ZombieController.cs" />
      <Compile Include="Assets/zombie/Scripts/ZombieAttack.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/Dirt_Handler.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/UI_Sprite.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/Generic_Mesh_Script.cs" />
      <Compile Include="Assets/ZombieWaveManager.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/SetSpriteSorting.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/UI_TextComplex.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_0_Start/Scripts/GameHandler.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/Button_Sprite.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/SpriteAnimator.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Assets.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/World_Sprite.cs" />
      <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/UtilsClass.cs" />
      <Compile Include="Assets/soldier/Scripts/CharacterController.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/EnemyHandler.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/HealthSystem.cs" />
      <Compile Include="Assets/scripts/PauseMenu.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/UI_Bar.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/Window_GameOver.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/GameHandler.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/HealthBar.cs" />
      <Compile Include="Assets/TowerHealth.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/ComponentActions.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/UI_BarMultiple.cs" />
+     <Compile Include="Assets/HowToHealthSystem/_1_Final/Scripts/GameAssets.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/CMDebug.cs" />
+     <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/FunctionPeriodic.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -65,6 +97,7 @@
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
      <Folder Include="Assets/PolygonCity/Materials/FX_Materials" />
      <Folder Include="Assets/POLYGONCityCharacters/Models" />
+     <Folder Include="Assets/HowToHealthSystem/_1_Final/Prefabs" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground5" />
      <Folder Include="Assets/PolygonCity" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground14" />
@@ -83,34 +116,43 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
      <Folder Include="Assets/scripts" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff/Scripts" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground8" />
      <Folder Include="Assets/Tree9" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground1" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/README.txt" />
      <Folder Include="Assets/TextMesh Pro" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey" />
      <Folder Include="Assets/PolygonCity/Scenes" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground2" />
      <Folder Include="Assets/PolygonCity/Models/Materials" />
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Textures" />
      <Folder Include="Assets/soldier/Scripts" />
+     <Folder Include="Assets/HowToHealthSystem/_0_Start/Scripts" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground10" />
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Scenes" />
      <Folder Include="Assets/PolygonCity/Prefabs" />
      <Folder Include="Assets/PolygonCity/Prefabs/Props" />
      <Folder Include="Assets/Adaptive Performance" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground9" />
+     <Folder Include="Assets/HowToHealthSystem/_1_Final/Scripts" />
      <Folder Include="Assets/zombie/Materials" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Materials" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff/Textures" />
      <Folder Include="Assets/Wooden Barricades/Demo Scene" />
      <Folder Include="Assets/zombie" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Models" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <Folder Include="Assets/PolygonCity/Models" />
      <Folder Include="Assets/TextMesh Pro/Shaders" />
@@ -124,6 +166,7 @@
      <Folder Include="Assets/ADG_Textures" />
      <Folder Include="Assets/TutorialInfo/Icons" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground4" />
+     <Folder Include="Assets/HowToHealthSystem/_0_Start" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <Folder Include="Assets/Tree9/Materials" />
      <Folder Include="Assets/Wooden Barricades" />
@@ -134,6 +177,7 @@
      <Folder Include="Assets/CodeMonkey" />
      <Folder Include="Assets/PolygonCity/Prefabs/Environments" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground7" />
+     <Folder Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Resources" />
      <Folder Include="Assets/ADG_Textures/Demo" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets/HyperCasual_SimpleCharacters/Materials_pipelines (HD + LW)" />
@@ -150,11 +194,13 @@
      <Folder Include="Assets/PolygonCity/Materials" />
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/Wooden Barricades/Textures" />
+     <Folder Include="Assets/HowToHealthSystem/_1_Final" />
      <Folder Include="Assets/PolygonCity/FX" />
      <Folder Include="Assets/TextMesh Pro/Documentation" />
      <Folder Include="Assets/PolygonCity/Prefabs/Characters" />
      <Folder Include="Assets/ADG_Textures/ground_vol1" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets/HowToHealthSystem" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <Folder Include="Assets/zombie/Scripts" />
@@ -871,6 +917,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="V_Animation.csproj">
+      <Project>{199b349d-01be-765b-fe10-085ac0cef9c6}</Project>
+      <Name>V_Animation</Name>
+    </ProjectReference>
     <ProjectReference Include="CodeMonkey_HealthSystem.csproj">
       <Project>{cfa5f6aa-2f27-72ac-8b3e-fc93cb30e4c0}</Project>
       <Name>CodeMonkey_HealthSystem</Name>

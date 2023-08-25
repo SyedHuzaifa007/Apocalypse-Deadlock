@@ -41,21 +41,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_UnitCSharp.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_HealButton.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/_Readme/Readme_HealthSystem.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_DamageButton.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/HealthBarUI.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/IGetHealthSystem.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_Bullet.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_UnitCSharp.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_Unit.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_Zombie.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/_Readme/Readme_HealthSystem.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/HealthSystem.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_Bullet.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/IGetHealthSystem.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_Unit.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_DefenseGame.cs" />
+     <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/LookAtCamera.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/HealthSystemComponent.cs" />
      <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_Cannon.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Scripts/LookAtCamera.cs" />
-     <Compile Include="Assets/CodeMonkey/HealthSystem/Demo/Demo_HealButton.cs" />
      <Folder Include="Assets/CodeMonkey/HealthSystem/Demo/Scenes" />
      <Folder Include="Assets/CodeMonkey/HealthSystem/Demo/Textures" />
      <Folder Include="Assets/CodeMonkey/HealthSystem/Demo/Animations" />

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V_Animation", "V_Animation.csproj", "{199b349d-01be-765b-fe10-085ac0cef9c6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{a5e183f0-78e5-0069-78b4-a4393231341e}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMonkey_HealthSystem", "CodeMonkey_HealthSystem.csproj", "{cfa5f6aa-2f27-72ac-8b3e-fc93cb30e4c0}"
@@ -14,6 +16,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{199b349d-01be-765b-fe10-085ac0cef9c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199b349d-01be-765b-fe10-085ac0cef9c6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a5e183f0-78e5-0069-78b4-a4393231341e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a5e183f0-78e5-0069-78b4-a4393231341e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cfa5f6aa-2f27-72ac-8b3e-fc93cb30e4c0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
