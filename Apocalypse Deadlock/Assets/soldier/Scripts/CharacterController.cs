@@ -9,6 +9,8 @@ public class CharacterController : MonoBehaviour
     public float moveSpeed = 5.0f;
     public float rotationSpeed = 180.0f;  // Rotation speed in degrees per second
 
+    public float health = 100.0f;  // Initial health value
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -16,6 +18,18 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
+        if (health <= 0)
+        {
+            // Play death animation
+            if (animator != null)
+            {
+                animator.SetBool("Death", true);
+            }
+
+            // Optionally, you might want to disable further movement and input processing here.
+            return;
+        }
+
         // Movement
         float verticalInput = Input.GetAxis("Vertical");
         Vector3 moveDirection = new Vector3(0.0f, 0.0f, verticalInput);
