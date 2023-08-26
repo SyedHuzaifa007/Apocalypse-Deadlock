@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61492
+54355
 Successfully changed project path to: /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock
 /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Volumes/Work/Mindstorm Studios/Rookie Gam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4588484096] Host "[IP] 192.168.186.195 [Port] 0 [Flags] 2 [Guid] 948188915 [EditorId] 948188915 [Version] 1048832 [Id] OSXEditor(0,Apple-Macbook-Pro-15.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4786902528] Host "[IP] 192.168.10.175 [Port] 0 [Flags] 2 [Guid] 3432501933 [EditorId] 3432501933 [Version] 1048832 [Id] OSXEditor(0,192.168.10.175) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4588484096] Host "[IP] 192.168.186.195 [Port] 0 [Flags] 2 [Guid] 948188915 [EditorId] 948188915 [Version] 1048832 [Id] OSXEditor(0,Apple-Macbook-Pro-15.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4786902528] Host "[IP] 192.168.10.175 [Port] 0 [Flags] 2 [Guid] 3432501933 [EditorId] 3432501933 [Version] 1048832 [Id] OSXEditor(0,192.168.10.175) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 139.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 136.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,94 +73,94 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56059
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56626
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002926 seconds.
+Registered in 0.008485 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 137.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 124.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
+- Completed reload, in  1.247 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1445ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1059ms)
-			LoadAssemblies (220ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (207ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (663ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (550ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008822 seconds.
+Registered in 0.009672 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  2.192 seconds
+- Completed reload, in  2.086 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2193ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (2087ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1796ms)
-			LoadAssemblies (242ms)
+		EndReloadAssembly (1705ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (406ms)
+			SetupTypeCache (385ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (1014ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (979ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (857ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (825ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (117.0 KB). Loaded Objects now: 3877.
-Memory consumption went from 132.5 MB to 132.4 MB.
-Total: 4.915794 ms (FindLiveObjects: 0.316341 ms CreateObjectMapping: 0.156292 ms MarkObjects: 4.289798 ms  DeleteObjects: 0.152276 ms)
+Memory consumption went from 132.4 MB to 132.3 MB.
+Total: 8.683293 ms (FindLiveObjects: 0.391597 ms CreateObjectMapping: 0.205758 ms MarkObjects: 7.857900 ms  DeleteObjects: 0.225330 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,37 +174,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 57336.530613 seconds.
-  path: Assets/HowToHealthSystem/Stuff/Textures/CodeMonkeyHead.png
-  artifactKey: Guid(6cf17b5362d2a1946bd44dd71210b385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HowToHealthSystem/Stuff/Textures/CodeMonkeyHead.png using Guid(6cf17b5362d2a1946bd44dd71210b385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc28a842d2477d2165b9c091e6e30f6') in 1.004939 seconds 
+  Time since last request: 18763.932569 seconds.
+  path: Assets/BitGem/Police_Officer_SC/Prefabs
+  artifactKey: Guid(960891c765f3042f3ac0ce8c1ba9b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BitGem/Police_Officer_SC/Prefabs using Guid(960891c765f3042f3ac0ce8c1ba9b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd193a6d1c05920abb1160bd758eaa6bb') in 0.013652 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003451 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2402ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1959ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (972ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (116.3 KB). Loaded Objects now: 3892.
+Memory consumption went from 130.5 MB to 130.4 MB.
+Total: 5.720786 ms (FindLiveObjects: 0.446691 ms CreateObjectMapping: 0.229051 ms MarkObjects: 4.875994 ms  DeleteObjects: 0.167866 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/HowToHealthSystem/Stuff/Textures/EnemyMinionSpriteSheet.mat
-  artifactKey: Guid(7c233a4f0bae53e43a7e491f7b49a569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HowToHealthSystem/Stuff/Textures/EnemyMinionSpriteSheet.mat using Guid(7c233a4f0bae53e43a7e491f7b49a569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f80f23775dc0277ba49a0faa45fc27d') in 2.261912 seconds 
+  Time since last request: 1463.449402 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_FastFoodGuy_01.prefab
+  artifactKey: Guid(cf0f33d2a32f159499351bdc8d15d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_FastFoodGuy_01.prefab using Guid(cf0f33d2a32f159499351bdc8d15d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d3ff30bd9df4445d90979f34f99d59') in 0.498264 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/HowToHealthSystem/Stuff/Textures/White_1x1.psd
-  artifactKey: Guid(1fb7cc54da82a5246b1fbc577b319cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HowToHealthSystem/Stuff/Textures/White_1x1.psd using Guid(1fb7cc54da82a5246b1fbc577b319cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ed6129cdb0392b7ced784b23acc6e1') in 0.329622 seconds 
+  Time since last request: 0.000092 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Hobo_01.prefab
+  artifactKey: Guid(260bc92b4025b7a4f98140a34d1af612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Hobo_01.prefab using Guid(260bc92b4025b7a4f98140a34d1af612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a2e386f0df1e7c398f417519ea7fe2') in 0.070806 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/HowToHealthSystem/Stuff/Textures/Shadow.psd
-  artifactKey: Guid(9211ee881a8c49a44b0c6fd9f0932112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HowToHealthSystem/Stuff/Textures/Shadow.psd using Guid(9211ee881a8c49a44b0c6fd9f0932112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2130d7703aa14dc397e1b35ff7cb72f9') in 0.049290 seconds 
+  Time since last request: 0.000128 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Jock_01.prefab
+  artifactKey: Guid(edc13eb972d2a704db06565103473e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Jock_01.prefab using Guid(edc13eb972d2a704db06565103473e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3765b46cf5839d8d3ecba202ebb0a214') in 0.046764 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.574727 seconds.
-  path: Assets/HowToHealthSystem/_1_Final/Prefabs/pfHealthBar.prefab
-  artifactKey: Guid(01a6b42a1d84b664c890d8dcb066becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HowToHealthSystem/_1_Final/Prefabs/pfHealthBar.prefab using Guid(01a6b42a1d84b664c890d8dcb066becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c319d51f7a209b9a43bc69c17bcb112') in 0.201299 seconds 
+  Time since last request: 0.000096 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_SummerGirl_01.prefab
+  artifactKey: Guid(1a8311760944bee4a800ce10f84eee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_SummerGirl_01.prefab using Guid(1a8311760944bee4a800ce10f84eee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd718a38ab13a92f7dd0fde4322546') in 0.062363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/HowToHealthSystem/_1_Final/Prefabs/pfSwordSlash.prefab
-  artifactKey: Guid(462567ca14cd79e4cb487f6efed6ab29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HowToHealthSystem/_1_Final/Prefabs/pfSwordSlash.prefab using Guid(462567ca14cd79e4cb487f6efed6ab29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b297b7a90dfe2a41be6afe9f98cd3bf1') in 0.024245 seconds 
+  Time since last request: 0.000082 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Gangster_01.prefab
+  artifactKey: Guid(0d71eaacb7dc9214a840923aeede17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Gangster_01.prefab using Guid(0d71eaacb7dc9214a840923aeede17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2610b87ce2219cab0dd23d742837c43') in 0.051077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Grandpa_01.prefab
+  artifactKey: Guid(5a8d5cf9d0e1c75478e5062cc96376c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Grandpa_01.prefab using Guid(5a8d5cf9d0e1c75478e5062cc96376c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c41a38b6ac622791029a609ae7d3726') in 0.066860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Grandma_01.prefab
+  artifactKey: Guid(1eb7038c3383b9d4182139ee87feaa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Grandma_01.prefab using Guid(1eb7038c3383b9d4182139ee87feaa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f13f1eff91aa9646be98f3c4efa4c8') in 0.057048 seconds 
