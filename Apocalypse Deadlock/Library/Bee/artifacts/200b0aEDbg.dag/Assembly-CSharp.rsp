@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/V_Animation.ref.dll"
 "Assets/CameraController.cs"
+"Assets/CannonTower.cs"
 "Assets/Hero.cs"
 "Assets/HowToHealthSystem/Stuff/Scripts/Blood_Handler.cs"
 "Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Assets.cs"

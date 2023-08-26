@@ -57,6 +57,7 @@
      <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/FunctionTimer.cs" />
      <Compile Include="Assets/CameraController.cs" />
      <Compile Include="Assets/zombie/Scripts/ZombieController.cs" />
+     <Compile Include="Assets/CannonTower.cs" />
      <Compile Include="Assets/zombie/Scripts/ZombieAttack.cs" />
      <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/Dirt_Handler.cs" />
      <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/UI_Sprite.cs" />
