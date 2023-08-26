@@ -25,8 +25,6 @@ public class CharacterController : MonoBehaviour
             {
                 animator.SetBool("Death", true);
             }
-
-            // Optionally, you might want to disable further movement and input processing here.
             return;
         }
 
