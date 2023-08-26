@@ -418,3 +418,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6702.447566 seconds.
+  path: Assets/CanonTower/FBX
+  artifactKey: Guid(f3fc14ac8afff3145b531404e1afaa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/FBX using Guid(f3fc14ac8afff3145b531404e1afaa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5719be541c3d959c02c5bda8413017d') in 0.111860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/CanonTower/FBX/Tower_Top.FBX
+  artifactKey: Guid(3b031bcf65d960943ae8ae3216e6fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/FBX/Tower_Top.FBX using Guid(3b031bcf65d960943ae8ae3216e6fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28734b5273d2cf99cddcf138f4dbddf0') in 0.432047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.239831 seconds.
+  path: Assets/CanonTower/Materials
+  artifactKey: Guid(8a6ac1f1ec046d247b77c9ade3cfac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Materials using Guid(8a6ac1f1ec046d247b77c9ade3cfac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73290b26760ced5d68b3b51f0313018') in 0.002394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130484 seconds.
+  path: Assets/CanonTower/Materials/Shield_Big_mat.mat
+  artifactKey: Guid(ca7138d56ebeadb4ab3ef5fcb82f946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Materials/Shield_Big_mat.mat using Guid(ca7138d56ebeadb4ab3ef5fcb82f946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9237cd018bb1ab8e1bc62172e9240743') in 0.169953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/CanonTower/Materials/Tower_Top_Deco_mat.mat
+  artifactKey: Guid(c696ba76ada0fae4b9725a7c7a7e325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Materials/Tower_Top_Deco_mat.mat using Guid(c696ba76ada0fae4b9725a7c7a7e325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acab5dde9f665bc680d2a39373f6c2e') in 0.028163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/CanonTower/Materials/Tower_Top_mat.mat
+  artifactKey: Guid(dd450e62cd3b7bd4f96ba5a499ed2f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Materials/Tower_Top_mat.mat using Guid(dd450e62cd3b7bd4f96ba5a499ed2f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c9ca228603391f1e1784b481d17151') in 0.055157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613277 seconds.
+  path: Assets/CanonTower/Prefabs
+  artifactKey: Guid(2c1dd667115459a449cc58575cdbcf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Prefabs using Guid(2c1dd667115459a449cc58575cdbcf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f8831c319cc5c10668646fafda8352') in 0.009123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140682 seconds.
+  path: Assets/CanonTower/Prefabs/Tower.prefab
+  artifactKey: Guid(f4f6b630159e6b34386dec2579f250b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Prefabs/Tower.prefab using Guid(f4f6b630159e6b34386dec2579f250b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a4f02fd0bd31d2d377696de5219d6e') in 0.132851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.171052 seconds.
+  path: Assets/CanonTower/Textures
+  artifactKey: Guid(101d43914bf8f33468d3c2db3fa60d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Textures using Guid(101d43914bf8f33468d3c2db3fa60d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2798f669bda07bacddff8fdbe69170d') in 0.004417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125164 seconds.
+  path: Assets/CanonTower/Textures/Shield_Big_dif.png
+  artifactKey: Guid(5149f59bafed21e479ba281c878e8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Textures/Shield_Big_dif.png using Guid(5149f59bafed21e479ba281c878e8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daef0b932205a9d66f1df318e54bf24c') in 0.929637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/CanonTower/Textures/Tower_Base_Dif.png
+  artifactKey: Guid(a16c3a1cc63e49a41adefb0061f38c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Textures/Tower_Base_Dif.png using Guid(a16c3a1cc63e49a41adefb0061f38c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04c43b5500fec9e9371e3d9e6564749') in 0.024088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CanonTower/Textures/Tower_Top_Deco_Dif.png
+  artifactKey: Guid(0e1f613ccdc6ee143a066b4a26389da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Textures/Tower_Top_Deco_Dif.png using Guid(0e1f613ccdc6ee143a066b4a26389da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ccf782becf58ca7964dec2da7f43d0') in 0.043937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.183759 seconds.
+  path: Assets/CanonTower/FBX/Materials
+  artifactKey: Guid(32d0275a91b134685af3b585ab88983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/FBX/Materials using Guid(32d0275a91b134685af3b585ab88983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e26840ac211a48346f4fdd24126cd0') in 0.006219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.293738 seconds.
+  path: Assets/CanonTower/FBX/Materials/No Name.mat
+  artifactKey: Guid(7d42fcbb6065e4a06bb4e0d37a9511de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/FBX/Materials/No Name.mat using Guid(7d42fcbb6065e4a06bb4e0d37a9511de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74b9ae61ec7fcdf4ae2e33228548fe9') in 0.012883 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002308 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Volumes/Work/Mindstorm Studios/Rookie Gam Jam/Apocalypse-Deadlock/Apocalypse Deadlock/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2638ms)
+		BeginReloadAssembly (437ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (187ms)
+		EndReloadAssembly (2008ms)
+			LoadAssemblies (267ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1075ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (920ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (117.1 KB). Loaded Objects now: 3998.
+Memory consumption went from 158.1 MB to 158.0 MB.
+Total: 6.009613 ms (FindLiveObjects: 0.441875 ms CreateObjectMapping: 0.267697 ms MarkObjects: 5.076852 ms  DeleteObjects: 0.221819 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243.077015 seconds.
+  path: Assets/CanonTower/Prefabs/Tower.prefab
+  artifactKey: Guid(f4f6b630159e6b34386dec2579f250b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Prefabs/Tower.prefab using Guid(f4f6b630159e6b34386dec2579f250b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cad0fa4c783a49def2ff46b4b93b7e9') in 0.157188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 322.071789 seconds.
+  path: Assets/CanonTower/Prefabs/Tower.prefab
+  artifactKey: Guid(f4f6b630159e6b34386dec2579f250b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CanonTower/Prefabs/Tower.prefab using Guid(f4f6b630159e6b34386dec2579f250b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e20dc2190c27d475a4f5fac99926e9') in 0.070330 seconds 

@@ -87,6 +87,7 @@
      <Compile Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Utils/FunctionPeriodic.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/PolygonCity 1 Copy/Models/Materials" />
+     <Folder Include="Assets/CanonTower/Textures" />
      <Folder Include="Assets/Scenes" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/POLYGONCityCharacters" />
@@ -105,6 +106,7 @@
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground14" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <Folder Include="Assets/BitGem/Police_Officer_SC/Models" />
+     <Folder Include="Assets/CanonTower/FBX/Materials" />
      <Folder Include="Assets/PolygonCity/Textures" />
      <Folder Include="Assets/BitGem" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground3" />
@@ -117,6 +119,7 @@
      <Folder Include="Assets/PolygonCity 1 Copy/Prefabs/Props" />
      <Folder Include="Assets/POLYGONCityCharacters/Materials" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <Folder Include="Assets/CanonTower/FBX" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground11" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
@@ -185,6 +188,7 @@
      <Folder Include="Assets/TextMesh Pro/Fonts" />
      <Folder Include="Assets/ADG_Textures" />
      <Folder Include="Assets/BitGem/Police_Officer_SC/Textures" />
+     <Folder Include="Assets/CanonTower/Materials" />
      <Folder Include="Assets/TutorialInfo/Icons" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground4" />
      <Folder Include="Assets/HowToHealthSystem/_0_Start" />
@@ -197,6 +201,7 @@
      <None Include="Assets/PolygonCity 1 Copy/Change_Log.txt" />
      <Folder Include="Assets/POLYGONCityCharacters/Textures" />
      <Folder Include="Assets/CodeMonkey" />
+     <Folder Include="Assets/CanonTower/Prefabs" />
      <Folder Include="Assets/PolygonCity/Prefabs/Environments" />
      <Folder Include="Assets/ADG_Textures/ground_vol1/ground7" />
      <Folder Include="Assets/HowToHealthSystem/Stuff/Scripts/CodeMonkey/Resources" />
@@ -224,6 +229,7 @@
      <Folder Include="Assets/ADG_Textures/ground_vol1" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <Folder Include="Assets/LowPolySoldiers_demo/animation" />
+     <Folder Include="Assets/CanonTower" />
      <Folder Include="Assets/HowToHealthSystem" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
      <Folder Include="Assets/PolygonCity 1 Copy/Prefabs/Buildings" />
