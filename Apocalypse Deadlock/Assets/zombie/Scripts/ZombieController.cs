@@ -8,7 +8,7 @@ public class ZombieController : MonoBehaviour
 
     private GameObject[] shields;
     private GameObject[] police;
-    private GameObject tower;
+    private GameObject[] towers;
     private GameObject currentTarget;
 
     private Vector3 destination;
@@ -21,12 +21,13 @@ public class ZombieController : MonoBehaviour
     }
 
     private AttackTarget currentAttackTarget = AttackTarget.Shield;
+    private int currentTowerIndex = 0; // Keep track of the current tower index
 
     void Start()
     {
         shields = GameObject.FindGameObjectsWithTag("Shield");
         police = GameObject.FindGameObjectsWithTag("Police");
-        tower = GameObject.FindGameObjectWithTag("Tower");
+        towers = GameObject.FindGameObjectsWithTag("Tower");
         FindNextTarget();
     }
 
@@ -101,7 +102,16 @@ public class ZombieController : MonoBehaviour
         }
         else if (currentAttackTarget == AttackTarget.Tower)
         {
-            currentTarget = tower;
+            if (currentTowerIndex < towers.Length)
+            {
+                currentTarget = towers[currentTowerIndex];
+                currentTowerIndex++;
+            }
+            else
+            {
+                currentAttackTarget = AttackTarget.Shield; // Go back to attacking shields
+                currentTowerIndex = 0; // Reset the tower index
+            }
         }
     }
 }
