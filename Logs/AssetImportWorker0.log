@@ -1,0 +1,525 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Downloads/New folder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65329
+Successfully changed project path to: C:/Users/user/Downloads/New folder
+C:/Users/user/Downloads/New folder
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9200] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2050558697 [EditorId] 2050558697 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DRFPVTS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9200] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2050558697 [EditorId] 2050558697 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DRFPVTS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 145.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Downloads/New folder/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     4036 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013073 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 491 ms
+Refreshing native plugins compatible for Editor in 137.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1673ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1348ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1010ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (650ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008540 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\New folder\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\New folder\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  1.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1816ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (357.6 KB). Loaded Objects now: 3880.
+Memory consumption went from 129.4 MB to 129.0 MB.
+Total: 7.742800 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.280600 ms MarkObjects: 6.819300 ms  DeleteObjects: 0.235800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64809.184657 seconds.
+  path: Assets/soldier/police_Hat_gloss.png
+  artifactKey: Guid(ee91cccc5b79de04ca3a32b82ecf581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hat_gloss.png using Guid(ee91cccc5b79de04ca3a32b82ecf581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516b2c127c5d3db778500594f3b0228e') in 0.152598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/soldier/police_Bottom_specular.png
+  artifactKey: Guid(a2480c291a1811f46a38381d3406ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Bottom_specular.png using Guid(a2480c291a1811f46a38381d3406ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd65ae5ca361f68950ad6a488efe06') in 0.056989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/soldier/police_Moustache_normal.png
+  artifactKey: Guid(9bc6ba9bb076a344d8c9642de3a02757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Moustache_normal.png using Guid(9bc6ba9bb076a344d8c9642de3a02757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe80d16f59dc5e86804071437ebe9d9d') in 0.061034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/soldier/police_Hat_normal.png
+  artifactKey: Guid(4945a17ae74df7144a689364b7135b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hat_normal.png using Guid(4945a17ae74df7144a689364b7135b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf6e39d8de1024431e8ed87703c7f2e') in 0.051834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/soldier/police_Beard_normal.fbx
+  artifactKey: Guid(97000a377060bb64a956760dd976e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_normal.fbx using Guid(97000a377060bb64a956760dd976e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb84b9636a41a1eba63e931f8902f7b') in 0.966735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/soldier/police_Bottom_normal.png
+  artifactKey: Guid(67aaef84fb84b0c4eb27ec92dd9b1413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Bottom_normal.png using Guid(67aaef84fb84b0c4eb27ec92dd9b1413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cc9293bf646462a448e851385bfac6') in 0.052200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/soldier/police_Hair_gloss.png
+  artifactKey: Guid(e61e60758d90788479b7048017bf7be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hair_gloss.png using Guid(e61e60758d90788479b7048017bf7be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f078d6ac7a9263862f61e72656fc25') in 0.055951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/soldier/police_Bottom_gloss.png
+  artifactKey: Guid(568e6ff4efb62e844827cb9cfe700d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Bottom_gloss.png using Guid(568e6ff4efb62e844827cb9cfe700d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628bb0d9df2a2cb67a35655a8e1a399f') in 0.051841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/soldier/police_Top_normal.png
+  artifactKey: Guid(0ab8687f2b32ed842bd3755ad4418749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Top_normal.png using Guid(0ab8687f2b32ed842bd3755ad4418749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb4733135455f2503cca7a24e4026a6') in 0.080253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/soldier/police_Top_diffuse.png
+  artifactKey: Guid(9c04cb99cbefdaf498d481ead49d2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Top_diffuse.png using Guid(9c04cb99cbefdaf498d481ead49d2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b40eddca1e9e88919c652bdefe4f6d5') in 0.080427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/soldier/police_Body_specular.png
+  artifactKey: Guid(6af6cb8d5ec9f2a4f954f1a34211faba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Body_specular.png using Guid(6af6cb8d5ec9f2a4f954f1a34211faba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5e7ca82ccf11db91d48ceb3c91c11c') in 0.068571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/soldier/police_Body_gloss.png
+  artifactKey: Guid(c5506a30e51b4be419c8aab89ca7fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Body_gloss.png using Guid(c5506a30e51b4be419c8aab89ca7fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656e81e5a6048c083d4641dac3726c56') in 0.226893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/soldier/police_Eyewear_normal.png
+  artifactKey: Guid(d62ceb1c646a21149a0e74c01fc07e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Eyewear_normal.png using Guid(d62ceb1c646a21149a0e74c01fc07e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4996e164c8abd05b4e14bce0e7e36ac1') in 0.046390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/soldier/police_Shoes_normal.png
+  artifactKey: Guid(cbab83b30f155b442884ce12ee450682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Shoes_normal.png using Guid(cbab83b30f155b442884ce12ee450682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1640b7f93bc5e227c4b6e28c5cd4deb3') in 0.050643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/soldier/police_Beard_gloss.png
+  artifactKey: Guid(5cdc6124887a0e04980a1ffb1714fe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_gloss.png using Guid(5cdc6124887a0e04980a1ffb1714fe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b29fa49955dee1b9bcac29302c7459') in 0.069627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/scripts/coinscolor.mat
+  artifactKey: Guid(59028a2119c034f48bc9319e2ce4c8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/coinscolor.mat using Guid(59028a2119c034f48bc9319e2ce4c8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f894671e4987c18c9573d120a8e7df44') in 0.053488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/soldier/police_Beard_diffuse.png
+  artifactKey: Guid(7c3a78a6c7ed9774da5dcd0a05d81241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_diffuse.png using Guid(7c3a78a6c7ed9774da5dcd0a05d81241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd6f626a5bccb341e440ef01f2bbd4') in 0.047622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/soldier/police_Shoes_diffuse.png
+  artifactKey: Guid(feeaba7aee870ee49b80b36f6e21f256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Shoes_diffuse.png using Guid(feeaba7aee870ee49b80b36f6e21f256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9c25bc692ec1783d0fda1f8ed24b06') in 0.046746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/soldier/police_Top_specular.png
+  artifactKey: Guid(3d491da6b68d2c847a767b9ee2228ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Top_specular.png using Guid(3d491da6b68d2c847a767b9ee2228ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e26e5a085e464a9978464b6827c8ab8') in 0.069432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/soldier/police_Beard_specular.png
+  artifactKey: Guid(da1ff2bc9f403d04b88d005bdb7cdad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_specular.png using Guid(da1ff2bc9f403d04b88d005bdb7cdad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74059204e7a28117efcdc9efc716c734') in 0.063283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/soldier/police_Body_normal.png
+  artifactKey: Guid(efbcda2e2fed18b4b987c2a056a4eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Body_normal.png using Guid(efbcda2e2fed18b4b987c2a056a4eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acb9fd02c9e9a2d52c2b3d7aeb7a219') in 0.046510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/soldier/police_Beard_normal@Run Backwards.fbx
+  artifactKey: Guid(e25a81a90f815834ca16bad90231884f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_normal@Run Backwards.fbx using Guid(e25a81a90f815834ca16bad90231884f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843eef8afbf672d5824b751e550eeecd') in 0.330208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/soldier/police_Bottom_diffuse.png
+  artifactKey: Guid(75cb3243c08bfe54b8cfb6616a3a287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Bottom_diffuse.png using Guid(75cb3243c08bfe54b8cfb6616a3a287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74944bdf1a824d314266741363d4c56') in 0.058368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/soldier/police_Eyewear_diffuse.png
+  artifactKey: Guid(8b9352d06b033bf4fa6cefa8a205fbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Eyewear_diffuse.png using Guid(8b9352d06b033bf4fa6cefa8a205fbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a72216a28a6922beb72ae615facf1a') in 0.046778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/soldier/police_Moustache_gloss.png
+  artifactKey: Guid(cebb85bbcec483041947669a7bf88cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Moustache_gloss.png using Guid(cebb85bbcec483041947669a7bf88cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119eb926d4ad1d766024fa88cb678eef') in 0.051310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/soldier/police_Shoes_specular.png
+  artifactKey: Guid(0880d6f454fe4404ba9531d4a5f85d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Shoes_specular.png using Guid(0880d6f454fe4404ba9531d4a5f85d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb18389a11606efc6263fe6086b34bd') in 0.051259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/soldier/police_Beard_normal@Rifle Idle.fbx
+  artifactKey: Guid(2210026e6e6003a40b6f3e6c858f8206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_normal@Rifle Idle.fbx using Guid(2210026e6e6003a40b6f3e6c858f8206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab79163f133ced5d8516da4bb29609b6') in 0.318515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/soldier/police_Hair_normal.png
+  artifactKey: Guid(348b3ca3c77aa5145ba8e339aec934f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hair_normal.png using Guid(348b3ca3c77aa5145ba8e339aec934f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4073c58f6dab8c65c56258b71fa75ef') in 0.044689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/soldier/police_Beard_normal@Run Forward.fbx
+  artifactKey: Guid(580a62e47f24bdd4e9e8f8065cdcd820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_normal@Run Forward.fbx using Guid(580a62e47f24bdd4e9e8f8065cdcd820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6815ff1b67893533d76c25495a966ffa') in 0.319657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/soldier/police_Moustache_specular.png
+  artifactKey: Guid(4446db33708ec9b4c8d316d12e2e0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Moustache_specular.png using Guid(4446db33708ec9b4c8d316d12e2e0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173776aad48e6c283afd2eff0f2b1a8d') in 0.051738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/soldier/police_Body_diffuse.png
+  artifactKey: Guid(c05f24bfe8dbc804cb4749a1db03c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Body_diffuse.png using Guid(c05f24bfe8dbc804cb4749a1db03c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4ba25badae83e4a25cc88fc2439baf') in 0.056116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/soldier/police_Eyewear_gloss.png
+  artifactKey: Guid(b0b7fda0cc3a64943ab2326a552f01b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Eyewear_gloss.png using Guid(b0b7fda0cc3a64943ab2326a552f01b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be21de4c310f6f99a94b265bc9b2da29') in 0.046947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/soldier/police_Eyewear_specular.png
+  artifactKey: Guid(aeaca4d6361bfd746b73d35aca998c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Eyewear_specular.png using Guid(aeaca4d6361bfd746b73d35aca998c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183f298f91b7c2916eebb55771b9eeb6') in 0.047846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/soldier/police_Hair_specular.png
+  artifactKey: Guid(27dbe7aa9cd14cd4a8b2ade4c5efc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hair_specular.png using Guid(27dbe7aa9cd14cd4a8b2ade4c5efc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fca902793d4f266beae7b83acfd9c1') in 0.051997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/soldier/police_Hat_diffuse.png
+  artifactKey: Guid(ff38caaf8c383bd44b64cc8f288ecd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hat_diffuse.png using Guid(ff38caaf8c383bd44b64cc8f288ecd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a84d93ed056f98f66293c21b114fa9a') in 0.042611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/soldier/police_Moustache_diffuse.png
+  artifactKey: Guid(5b43435c9b8cc7944afd68bb921d1ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Moustache_diffuse.png using Guid(5b43435c9b8cc7944afd68bb921d1ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e680130135a62f5e22bcf213b0edf404') in 0.047509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/soldier/police_Hat_specular.png
+  artifactKey: Guid(5d89190c172543a49959e3bb7287f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hat_specular.png using Guid(5d89190c172543a49959e3bb7287f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58253ad6f09c01923c153b881331af25') in 0.050678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/soldier/police_Top_gloss.png
+  artifactKey: Guid(4ada25df295b02a4f918cb39342e7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Top_gloss.png using Guid(4ada25df295b02a4f918cb39342e7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af59639596d36055739edd7a58d0d64c') in 0.047671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/soldier/police_Shoes_gloss.png
+  artifactKey: Guid(da2a31f85a8a589409cdddb792125582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Shoes_gloss.png using Guid(da2a31f85a8a589409cdddb792125582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a39213f708991c1c530fe8c2be93997') in 0.049154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/soldier/police_Beard_normal.png
+  artifactKey: Guid(f5a03466bcc46b746a954c5351203641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Beard_normal.png using Guid(f5a03466bcc46b746a954c5351203641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035565a17ce5b18b09f1333948e64874') in 0.034465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/soldier/police_Hair_diffuse.png
+  artifactKey: Guid(9d71166653e30394993f6f11571cd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/soldier/police_Hair_diffuse.png using Guid(9d71166653e30394993f6f11571cd310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a848a83c04f5d8979dd4f350fe8f50') in 0.044289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.957147 seconds.
+  path: Assets/Animations/backward run.fbx
+  artifactKey: Guid(e5cb86690d97f784fba62c3354fc9313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/backward run.fbx using Guid(e5cb86690d97f784fba62c3354fc9313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29a143038562ab256f9af0986b1a6c9') in 0.032166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animations/idle.fbx
+  artifactKey: Guid(dbde0023c51c48d469e1382fcf6a530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/idle.fbx using Guid(dbde0023c51c48d469e1382fcf6a530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9913f8b0571983c5f5c549a4eb173b') in 0.043429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animations/idle with gun.fbx
+  artifactKey: Guid(1c8361f06ea2c1648960889a83f7c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/idle with gun.fbx using Guid(1c8361f06ea2c1648960889a83f7c908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a03de7273dd5b808e98f636d17ec7bc') in 0.045223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Animations/newBackward.fbx
+  artifactKey: Guid(812d533ff1715ba4a99c20fabc9dee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/newBackward.fbx using Guid(812d533ff1715ba4a99c20fabc9dee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cead30b0fa3603ed7e3244fbf47adc4b') in 0.048663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animations/zombie run (2).fbx
+  artifactKey: Guid(aa4e7b54adcd70544850e3436cbfcdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/zombie run (2).fbx using Guid(aa4e7b54adcd70544850e3436cbfcdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326ff78be5c8a1be4932a1f1c5205b6') in 0.043697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animations/run.fbx
+  artifactKey: Guid(4df198249b6ca224886157706eb7b7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/run.fbx using Guid(4df198249b6ca224886157706eb7b7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6f76fcaa119543a2ec3265c491f503') in 0.043675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.383372 seconds.
+  path: Assets/Animations/run.fbx
+  artifactKey: Guid(4df198249b6ca224886157706eb7b7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/run.fbx using Guid(4df198249b6ca224886157706eb7b7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460d471c23afdbf9b7423c54f611c2dd') in 0.018344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.834628 seconds.
+  path: Assets/Animations/run.fbx
+  artifactKey: Guid(4df198249b6ca224886157706eb7b7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/run.fbx using Guid(4df198249b6ca224886157706eb7b7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa6a1fc0ced7c8f3ae6cde3e6de7526') in 0.012251 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010242 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\New folder\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\New folder\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2764ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2310ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (198ms)
+			SetupLoadedEditorAssemblies (1188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (78ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (795ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (96.3 KB). Loaded Objects now: 3943.
+Memory consumption went from 140.3 MB to 140.2 MB.
+Total: 9.294700 ms (FindLiveObjects: 0.479000 ms CreateObjectMapping: 0.555700 ms MarkObjects: 8.111200 ms  DeleteObjects: 0.147000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.249482 seconds.
+  path: Assets/Animations/idle.fbx
+  artifactKey: Guid(dbde0023c51c48d469e1382fcf6a530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/idle.fbx using Guid(dbde0023c51c48d469e1382fcf6a530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00772622c1ce2c1f9feb93dd541149a') in 0.081080 seconds 
